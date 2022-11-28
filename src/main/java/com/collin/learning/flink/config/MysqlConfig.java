@@ -11,15 +11,15 @@ public interface MysqlConfig {
     /**
      * 数据库
      */
-    String[] DATABASE_LIST = {"flink_learning"};
+    String[] DATABASE_LIST = {"learning_flink"};
     /**
      * 表名
      */
-    String[] TABLE_LIST = {"flink_learning.t_product_info", "flink_learning.t_order_bill", "flink_learning.t_user_info"};
+    String[] TABLE_LIST = {"learning_flink.t_product_info", "learning_flink.t_order_bill", "learning_flink.t_user_info"};
     /**
      * server host
      */
-    String HOST = "192.168.15.117";
+    String HOST = "localhost";
     /**
      * mysql端口
      */
