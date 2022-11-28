@@ -11,7 +11,7 @@ public class RedisSinkWriter implements Serializable, SinkWriter<String> {
 
     @Override
     public void write(String element, Context context) throws IOException, InterruptedException {
-        log.warn(element);
+        log.debug(element);
     }
 
     @Override

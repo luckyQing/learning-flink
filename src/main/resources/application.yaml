@@ -1,8 +1,27 @@
+flink:
+  mysql:
+    host: localhost
+    port: 3306
+    username: root
+    password: 123456
+    databases:
+      - learning_flink
+    tables:
+      - learning_flink.t_product_info
+      - learning_flink.t_order_bill
+      - learning_flink.t_user_info
+
+logging:
+  level:
+    com:
+      collin:
+        learning:
+          flink: DEBUG
+
 spring:
   redis:
-    host: 192.168.15.67
+    host: localhost
     port: 6379
-    password: welcome123
     timeout: 10000ms
     lettuce:
       pool:
